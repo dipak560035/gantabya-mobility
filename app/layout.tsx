@@ -1,7 +1,6 @@
 import { ThemeProvider } from "next-themes"
 import "./globals.css"
 
-
 export default function RootLayout({
   children,
 }: {
@@ -11,6 +10,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider>
+   
           {children}
         </ThemeProvider>
       </body>
