@@ -1,5 +1,5 @@
 import React from "react"
-import HeroSection from "./features/page"
+import HeroSection from "./features/heroSection/page"
 
 
 export default function HomePage() {
