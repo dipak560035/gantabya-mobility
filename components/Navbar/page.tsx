@@ -31,8 +31,8 @@ export default function Navbar() {
           <NavItem href="/">Home</NavItem>
           <NavItem href="/our-bikes">Our Bikes</NavItem>
           <NavItem href="/technology">Technology</NavItem>
-          <NavItem href="/about-us">About Us</NavItem>
-          <NavItem href="/blog">Blog</NavItem>
+          <NavItem href="/components/sections/core/AboutSection.tsx">About Us</NavItem>
+          <NavItem href="/BlogSection">Blog</NavItem>
           <NavItem href="/support">Support</NavItem>
           <NavItem href="/contact">Contact</NavItem>
         </div>
