@@ -17,7 +17,7 @@ function NavItem({ href, children }: { href: string; children: React.ReactNode }
   );
 }
 
-export default function Page() {
+export default function Navbar() {
   return (
     <div className="bg-[#111111] text-white">
       <nav className="flex items-center justify-between px-10 py-6">
