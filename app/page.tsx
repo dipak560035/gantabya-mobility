@@ -3,6 +3,8 @@ import AboutSection from "@/components/sections/core/AboutSection"
 import BlogSection from "@/components/sections/core/BlogSection"
 import TechnologySection from "@/components/sections/core/TechnologySection"
 import VehiclesSection from "@/components/sections/core/VehiclesSection"
+
+import StatsSection from "./stateSection/page"
 import Testride from "./Testride/page"
 
 
@@ -15,9 +17,11 @@ import ReadyToRide from "./readyToRide/page"
 
 
 
+
 export default function HomePage() {
   return (
     <main >
+
       
 
 {/*       
@@ -27,6 +31,7 @@ export default function HomePage() {
       <BlogSection /> */}
     <HeroSection />
     <WhyChooseSection />
+
       <VehiclesSection />
       <TechnologySection />
       <AboutSection />
