@@ -7,6 +7,8 @@ import WhyChooseSection from "./whyChooseUs/page"
 import ReadyToRide from "./readyToRide/page"
 
 
+
+
 export default function HomePage() {
   return (
     <main >
@@ -14,10 +16,13 @@ export default function HomePage() {
     <HeroSection />
     <WhyChooseSection />
       <VehiclesSection />
-      <ReadyToRide />
-     
-      
-   
+      <TechnologySection />
+      <AboutSection />
+      <BlogSection />
+
+    
+
+
 
     </main>
   )
