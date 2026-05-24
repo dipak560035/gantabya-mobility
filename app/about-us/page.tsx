@@ -40,8 +40,8 @@ const AboutSection: React.FC = () => {
             marginBottom: "28px",
           }}
         >
-          Founded in 2019, Gantabya Mobility set out with a bold vision — to lead Nepal's
-          electric vehicle revolution. From a small workshop in Kathmandu, we've grown into
+          Founded in 2019, Gantabya Mobility set out with a bold vision — to lead Nepals
+          electric vehicle revolution. From a small workshop in Kathmandu, we ve grown into
           one of Nepal most promising EV startups.
         </p>
 
@@ -53,7 +53,7 @@ const AboutSection: React.FC = () => {
             marginBottom: "64px",
           }}
         >
-          Our name Gantabya" means "destination" in Nepali — a symbol of our mission to build
+          Our name Gantabya means destination in Nepali — a symbol of our mission to build
           a sustainable, emission-free future.
         </p>
 
