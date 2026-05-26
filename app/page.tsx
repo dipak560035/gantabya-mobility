@@ -1,24 +1,17 @@
-import AboutSection from "@/components/sections/core/AboutSection"
-import BlogSection from "@/components/sections/core/BlogSection"
-import TechnologySection from "@/components/sections/core/TechnologySection"
-import VehiclesSection from "@/components/sections/core/VehiclesSection"
-
-
+import VehiclesSection from "./bikes/page";
+import HeroSection from "./heroSection/page";
+import ReadyToRide from "./readyToRide/page";
+import StatsSection from "./stateSection/page";
+import WhyChooseSection from "./whyChooseUs/page";
 
 export default function HomePage() {
   return (
     <main >
-      
-     
-      {/* <VehiclesSection />
-      <TechnologySection />
-      <AboutSection />
-      <BlogSection />  */}
-
-    
-
-
-
-    </main>
+    <HeroSection />
+    <WhyChooseSection />
+    <VehiclesSection />
+    <StatsSection />
+    <ReadyToRide />
+</main>
   )
 }
