@@ -268,6 +268,6 @@ const ValueCard = ({
       <p style={{ fontSize: "0.9rem", color: "#9ca3af" }}>
         {desc}
       </p>
-    </div>
+    </div>  
   );
 };
