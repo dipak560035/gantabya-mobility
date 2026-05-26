@@ -1,18 +1,20 @@
-import AboutSection from "@/components/sections/core/AboutSection"
-import BlogSection from "@/components/sections/core/BlogSection"
-import TechnologySection from "@/components/sections/core/TechnologySection"
-import VehiclesSection from "@/components/sections/core/VehiclesSection"
-import StatsSection from "./stateSection/page"
+// import AboutSection from "@/components/sections/core/AboutSection"
+// import BlogSection from "@/components/sections/core/BlogSection"
+// import VehiclesSection from "@/components/sections/core/VehiclesSection"
+// import StatsSection from "./stateSection/page"
+
+import Technology from "@/components/Technology/page";
 
 
 export default function HomePage() {
   return (
     <main >
-   <StatsSection/>
-      <VehiclesSection />
-      <TechnologySection />
+     <Technology/>
+   {/* <StatsSection/>
+      <VehiclesSection /> */}
+      {/* <TechnologySection />
       <AboutSection />
-      <BlogSection />
+      <BlogSection /> */}
 
     </main>
   )
