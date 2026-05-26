@@ -5,6 +5,12 @@
 
 import Technology from "@/components/Technology/page";
 
+import WhyChooseSection from "./whyChooseUs/page"
+
+
+
+
+
 
 export default function HomePage() {
   return (
@@ -16,6 +22,18 @@ export default function HomePage() {
       <AboutSection />
       <BlogSection /> */}
 
-    </main>
+      
+
+
+    <HeroSection />
+    <WhyChooseSection />
+    <VehiclesSection />
+    <StatsSection />
+    <ReadyToRide />
+    
+
+      
+
+</main>
   )
 }

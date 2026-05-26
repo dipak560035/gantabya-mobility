@@ -26,13 +26,7 @@ const AboutSection: React.FC = () => {
           }}
         >
           About{" "}
-          <span
-            style={{
-              background: "linear-gradient(90deg, #22c55e, #16a34a)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
+          <span className="bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
             Gantabya
           </span>
         </h2>
@@ -46,8 +40,8 @@ const AboutSection: React.FC = () => {
             marginBottom: "28px",
           }}
         >
-          Founded in 2019, Gantabya Mobility set out with a bold vision — to lead Nepal's
-          electric vehicle revolution. From a small workshop in Kathmandu, we've grown into
+          Founded in 2019, Gantabya Mobility set out with a bold vision — to lead Nepals
+          electric vehicle revolution. From a small workshop in Kathmandu, we ve grown into
           one of Nepal most promising EV startups.
         </p>
 
@@ -59,7 +53,7 @@ const AboutSection: React.FC = () => {
             marginBottom: "64px",
           }}
         >
-          Our name Gantabya" means "destination" in Nepali — a symbol of our mission to build
+          Our name Gantabya means destination in Nepali — a symbol of our mission to build
           a sustainable, emission-free future.
         </p>
 
