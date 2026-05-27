@@ -45,7 +45,7 @@ const VEHICLES: Vehicle[] = [
   },
 
    {
-    id: 'thunder-b',
+    id: 'thunder',
     name: 'Thunder X',
     tagline: 'Born to dominate.',
     range: '180km',
@@ -54,7 +54,7 @@ const VEHICLES: Vehicle[] = [
     image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlrZXN8ZW58MHx8MHx8fDA%3D',
   },
   {
-    id: 'volt',
+    id: 'cruiser',
     name: 'Volt Cruiser',
     tagline: 'Silent power, endless roads',
     range: '200km',
@@ -71,11 +71,6 @@ const VEHICLES: Vehicle[] = [
     price: 'NPR 2,49,000',
     image: 'https://images.unsplash.com/photo-1607088797610-020db7a14cd5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGVsZWN0cmljJTIwbW90b3JiaWtlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
-
-
-
-
-
 
 
 ]
@@ -105,11 +100,18 @@ function VehicleCard({ vehicle, index }: { vehicle: Vehicle; index: number }) {
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-700"
         /> */}
-        <img
+        {/* <img
             src={vehicle.image}
             alt={vehicle.name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
+            /> */}
+            <Image
+  src={vehicle.image}
+  alt={vehicle.name}
+  width={800}
+  height={600}
+  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+/>
 
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-linear-to-t from-[#1a1a1a] to-transparent" />
       </div>
