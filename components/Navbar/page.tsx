@@ -37,12 +37,12 @@ export default function Navbar() {
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [setIsScrolled]);
 
   // Close menu when route changes
   useEffect(() => {
     setIsMenuOpen(false);
-  }, [pathname]);
+  }, [pathname, setIsMenuOpen]);
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -156,3 +156,5 @@ export default function Navbar() {
     </>
   );
 }
+
+
