@@ -81,8 +81,8 @@ export default function Navbar() {
     { href: '/technology', label: 'Technology' },
     { href: '/about-us', label: 'About Us' },
     { href: '/blog', label: 'Blog' },
-    { href: '/support', label: 'Support' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/Support', label: 'Support' },
+    { href: '/Contact', label: 'Contact' },
   ];
 
   return (
