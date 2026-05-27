@@ -1,5 +1,7 @@
 'use client'
 
+
+import Link from 'next/link'
 import { useRef } from 'react'
 import Image from 'next/image'
 import { motion, useInView } from 'framer-motion'
@@ -139,9 +141,12 @@ function VehicleCard({ vehicle, index }: { vehicle: Vehicle; index: number }) {
             {vehicle.price}
           </span>
 
-          <button className="flex items-center gap-1 text-sm text-gray-300 group-hover:text-white transition">
-            Details <ChevronRight className="w-4 h-4" />
-          </button>
+          <Link
+  href={`/bikes/${vehicle.id}`}
+  className="flex items-center gap-1 text-sm text-gray-300 group-hover:text-white transition cursor-pointer"
+>
+  Details <ChevronRight className="w-4 h-4" />
+</Link>
         </div>
       </div>
 
