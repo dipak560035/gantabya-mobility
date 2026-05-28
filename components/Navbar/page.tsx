@@ -1,10 +1,12 @@
 
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import gantabyaLogo from '../../logo/gantabyalogo.png';
 
 function NavItem({ href, children, onClick }: { href: string; children: React.ReactNode; onClick?: () => void }) {
   const pathname = usePathname();
@@ -37,12 +39,12 @@ export default function Navbar() {
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [setIsScrolled]);
 
   // Close menu when route changes
   useEffect(() => {
     setIsMenuOpen(false);
-  }, [pathname]);
+  }, [pathname, setIsMenuOpen]);
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -79,14 +81,17 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             
             {/* Logo Section */}
-            <Link href="/" className="flex items-center gap-2 group cursor-pointer">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-green-500 rounded-full flex items-center justify-center font-bold text-black transition-transform group-hover:scale-105">
-                G
-              </div>
-              <span className="text-white text-lg sm:text-xl md:text-2xl font-bold tracking-tight">
-                gantabya
-              </span>
-            </Link>
+            
+            <Link href="/" className="flex items-center gap-3 group cursor-pointer">
+                <Image
+                src={gantabyaLogo}
+                alt="Gantabya logo"
+                className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+                width={56}
+                height={56}
+                priority
+                  />
+                  </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-6 xl:gap-8">
@@ -156,3 +161,4 @@ export default function Navbar() {
     </>
   );
 }
+

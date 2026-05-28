@@ -118,6 +118,7 @@ const BlogSection: React.FC = () => {
 
                 {/* READ MORE */}
                 <a
+
                   className="text-green-400 text-sm font-medium flex items-center gap-1
                              group-hover:gap-2 transition-all cursor-pointer "
                 >
