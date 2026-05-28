@@ -187,11 +187,11 @@ export default async function BikeDetailsPage({
         {/* Buttons */}
         <div className="flex gap-5 mt-4">
 
-          <button className="bg-green-500 hover:bg-green-400 text-black font-semibold px-8 py-4 rounded-xl transition">
+          <button className="bg-green-500 hover:bg-green-400 text-black font-semibold px-8 py-4 rounded-xl transition cursor-pointer ">
             Book Test Ride
           </button>
 
-          <button className="border border-green-500 text-green-500 hover:bg-gray-700 hover:text-green-500 px-8 py-4 rounded-xl font-semibold transition">
+          <button className="border border-green-500 text-green-500 hover:bg-gray-700 hover:text-green-500 px-8 py-4 rounded-xl font-semibold transition cursor-pointer ">
             Contact Us
           </button>
 
