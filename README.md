@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gantabya Mobility
 
-## Getting Started
+A modern and responsive web application built for **Gantabya Mobility**, focused on promoting sustainable electric mobility solutions in Nepal.
+The platform showcases the company’s vision, EV products, features, customer experiences, and future mobility goals through an engaging and interactive user interface.
 
-First, run the development server:
+---
+
+##  Live Demo
+
+🔗 https://gantabya-mobility.vercel.app/
+
+---
+
+##  Project Overview
+
+Gantabya Mobility is an EV-focused platform designed to deliver a clean, fast, and modern digital experience.
+The project emphasizes:
+
+* Sustainable transportation awareness
+* Modern UI/UX design
+* Responsive layouts for all devices
+* High performance and optimized frontend architecture
+* Scalable component-based development
+
+---
+
+##  Tech Stack
+
+### Frontend
+
+* Next.js
+* React.js
+* TypeScript
+* Tailwind CSS
+
+### UI & Icons
+
+* Lucide React
+* Font Awesome
+
+### Deployment
+
+* Vercel
+
+---
+
+##  Features
+
+* Fully responsive modern landing page
+* Smooth and clean user interface
+* Interactive navigation bar
+* Hero section with call-to-action
+* Product showcase sections
+* Testimonials and customer reviews
+* Footer with company information
+* Optimized performance and SEO-friendly structure
+
+---
+
+## 📂 Project Structure
+
+```bash
+gantabya-mobility/
+│
+├── app/
+├── components/
+├── public/
+├── logo/
+├── styles/
+├── package.json
+└── README.md
+```
+
+---
+
+##  Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dipak560035/gantabya-mobility.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd gantabya-mobility
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Responsive Design
 
-To learn more about Next.js, take a look at the following resources:
+The application is optimized for:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Desktop
+* Tablet
+* Mobile devices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+##  Goals of the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Promote electric mobility solutions
+* Create a modern digital presence for Gantabya Mobility
+* Deliver a smooth and engaging user experience
+* Build scalable frontend architecture using modern technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+
+##  Contribution
+
+Contributions, suggestions, and improvements are welcome.
+
+Fork the repository and create a pull request for any enhancements.
+
+---
+
+##  Developer
+
+Developed by Dipak Sah
+
+* GitHub: https://github.com/dipak560035
+
+---
