@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion'
 import { Zap, Clock, ChevronRight } from 'lucide-react'
 
 interface Vehicle {
-  id: string
+  id: string  
   name: string
   tagline: string
   range: string
