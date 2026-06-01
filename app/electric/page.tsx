@@ -104,7 +104,6 @@ function VehicleCard({
                    hover:-translate-y-2
                    transition-all duration-500"
       >
-        {/* Image */}
         <div className="relative h-65 overflow-hidden">
           <Image
             src={vehicle.image}
@@ -117,7 +116,6 @@ function VehicleCard({
           <div className="absolute bottom-0 left-0 right-0 h-20 bg-linear-to-t from-[#1a1a1a] to-transparent" />
         </div>
 
-        {/* Content */}
         <div className="px-5 pb-5 pt-4">
           <h3 className="text-white font-bold text-lg">
             {vehicle.name}
@@ -127,7 +125,6 @@ function VehicleCard({
             {vehicle.tagline}
           </p>
 
-          {/* Specs */}
           <div className="flex gap-5 mt-4">
             <div className="flex items-center gap-1 text-sm text-white">
               <Zap className="w-4 h-4 text-green-500" />
@@ -140,7 +137,6 @@ function VehicleCard({
             </div>
           </div>
 
-          {/* Bottom */}
           <div className="flex justify-between items-center mt-5">
             <span className="text-green-500 font-bold text-lg">
               {vehicle.price}
@@ -153,7 +149,6 @@ function VehicleCard({
           </div>
         </div>
 
-        {/* Top Glow */}
         <div className="absolute top-0 left-0 right-0 h-0.5 bg-green-500 opacity-0 group-hover:opacity-100 transition" />
       </motion.div>
     </NextLink>
@@ -168,7 +163,6 @@ export default function Electric() {
     <section id="electric" className="bg-[#0d0d0d] py-20 px-6">
       <div className="max-w-6xl mx-auto">
 
-        {/* Heading */}
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 20 }}
@@ -181,7 +175,6 @@ export default function Electric() {
           <p className='text-white text-2xl mt-4'>Choose the perfect ride for your journey-from city commutes to highway adventures</p>
         </motion.div>
 
-        {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {VEHICLES.map((vehicle, i) => (
             <VehicleCard key={vehicle.id} vehicle={vehicle} index={i} />

@@ -56,7 +56,7 @@ export default function WhyChooseSection() {
           </p>
         </div>
 
-        {/* Cards */}
+    
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((item) => {
             const Icon = item.icon;
@@ -66,7 +66,7 @@ export default function WhyChooseSection() {
                 key={item.id}
                 className="rounded-2xl border border-gray-800 bg-black p-8 transition-all duration-300 hover:shadow-[0_0_40px_rgba(30,160,60,0.30)]"
               >
-                {/* Icon */}
+                
                 <div className="mb-6">
                   <Icon
                     className="w-10 h-10 text-[#00E676]"
@@ -74,12 +74,12 @@ export default function WhyChooseSection() {
                   />
                 </div>
 
-                {/* Title */}
+               
                 <h3 className="text-2xl font-semibold mb-3">
                   {item.title}
                 </h3>
 
-                {/* Description */}
+              
                 <p className="text-gray-400 leading-relaxed">
                   {item.description}
                 </p>

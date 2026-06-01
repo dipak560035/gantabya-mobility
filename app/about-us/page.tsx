@@ -22,8 +22,7 @@ const AboutSection: React.FC = () => {
       }}
     >
       <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-        
-        {/* Heading */}
+      
         <h2
           style={{
             textAlign: "center",
@@ -39,7 +38,7 @@ const AboutSection: React.FC = () => {
           </span>
         </h2>
 
-        {/* Text */}
+  
         <p
           style={{
             fontSize: "1.05rem",
@@ -65,7 +64,7 @@ const AboutSection: React.FC = () => {
           a sustainable, emission-free future.
         </p>
 
-        {/* Mission + Vision */}
+  
         <div
           style={{
             display: "grid",
@@ -73,26 +72,7 @@ const AboutSection: React.FC = () => {
             gap: "24px",
           }}
         >
-          {/* Mission */}
-          {/* <div
-            style={{
-              border: "1px solid #1f2937",
-              borderRadius: "16px",
-              padding: "28px",
-              backgroundColor: "#0d0d0d",
-            }}
-          >
-            <FontAwesomeIcon icon={faGear} size="2xl" color="#22c55e" />
-
-            <h3 style={titleStyle} className="mt-6">
-              Our Mission
-            </h3>
-
-            <p style={descStyle}>
-              To make electric mobility accessible and desirable for every Nepali through
-              world-class EV motorcycles.
-            </p>
-          </div> */}
+         
           <div
   style={{
     
@@ -118,7 +98,7 @@ const AboutSection: React.FC = () => {
   </p>
 </div>
 
-          {/* Vision */}
+      
           <div
             style={{
               border: "1px solid #1f2937",
@@ -139,7 +119,7 @@ const AboutSection: React.FC = () => {
         </div>
       </div>
 
-      {/* VALUES */}
+
       <div style={{ maxWidth: "1100px", margin: "100px auto 0", padding: "0 24px" }}>
         
         <h2
@@ -203,7 +183,7 @@ const AboutSection: React.FC = () => {
 
 export default AboutSection;
 
-/* ---------------- HELPERS ---------------- */
+
 
 const titleStyle = {
   fontSize: "1.4rem",
@@ -217,7 +197,7 @@ const descStyle = {
   color: "#9ca3af",
 };
 
-/* ICON BOX */
+
 const IconBox = ({ type }: { type: "mission" | "vision" }) => {
   return (
     <div style={{ marginBottom: "16px" }}>
@@ -236,7 +216,7 @@ const IconBox = ({ type }: { type: "mission" | "vision" }) => {
   );
 };
 
-/* VALUE CARD */
+
 
 
 const ValueCard = ({

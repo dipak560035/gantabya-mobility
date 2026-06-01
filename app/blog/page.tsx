@@ -58,7 +58,7 @@ const BlogSection: React.FC = () => {
     <section className="py-20 bg-[#0a0a0a] text-white">
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* HEADER */}
+
         <div className="text-center mb-14">
           <h2 className="text-4xl font-bold mb-3">
             Blog &<span className="bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">  News</span>
@@ -66,7 +66,7 @@ const BlogSection: React.FC = () => {
           
         </div>
 
-        {/* GRID */}
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogPosts.map((post, index) => (
             <article
@@ -76,7 +76,7 @@ const BlogSection: React.FC = () => {
                          transition-all duration-300 group"
             >
 
-              {/* CATEGORY */}
+
               <div className="mb-3">
                 <span
                   className={`px-3 py-1 text-xs font-semibold rounded-full ${post.bg} ${post.color}`}
@@ -85,20 +85,18 @@ const BlogSection: React.FC = () => {
                 </span>
               </div>
 
-              {/* TITLE */}
+        
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-400 transition-colors">
                 {post.title}
               </h3>
 
-              {/* DESCRIPTION */}
+         
               <p className="text-gray-400 text-sm mb-4 leading-relaxed">
                 {post.description}
               </p>
 
-              {/* FOOTER */}
               <div className="flex items-center justify-between pt-3 border-t border-gray-800">
 
-                {/* DATE */}
                 <div className="flex items-center text-gray-500 text-xs">
                   <svg
                     className="w-4 h-4 mr-1 text-gray-500"
@@ -116,7 +114,7 @@ const BlogSection: React.FC = () => {
                   {post.date}
                 </div>
 
-                {/* READ MORE */}
+           
                 <a
                   href=""
                   className="text-green-400 text-sm font-medium flex items-center gap-1
@@ -131,17 +129,6 @@ const BlogSection: React.FC = () => {
             </article>
           ))}
         </div>
-
-        {/* BUTTON */}
-        <div className="text-center mt-12">
-          {/* <button
-            className="px-6 py-3 bg-green-500 text-black font-semibold rounded-lg
-                       hover:bg-green-400 transition-all shadow-lg"
-          >
-            View All Articles
-          </button> */}
-        </div>
-
       </div>
     </section>
   );

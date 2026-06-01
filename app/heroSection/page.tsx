@@ -9,17 +9,16 @@ export default function HeroSection() {
         className="relative h-screen bg-cover bg-center"
         style={{
           backgroundImage:
-  "url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=2070&auto=format&fit=crop')",
-        }}
-      >
-        {/* Dark Overlay */}
+          "url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=2070&auto=format&fit=crop')",
+                }}
+              >
+      
         <div className="absolute inset-0 bg-black/45"></div>
 
-        {/* Content */}
+        
         <div className="relative z-10 flex items-center h-full px-6 md:px-16 lg:px-24">
           <div className="max-w-2xl">
-            
-            {/* Heading */}
+        
             <h1 className="text-white text-5xl md:text-7xl font-extrabold leading-tight">
               The EV <br />
               <span className="bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
@@ -27,14 +26,14 @@ export default function HeroSection() {
               </span>
             </h1>
 
-            {/* Description */}
+          
             <p className="mt-6 text-gray-200 text-lg md:text-2xl leading-relaxed">
               Premium electric motorcycles made in Nepal for
               <br className="hidden md:block" />
               the future of mobility.
             </p>
 
-            {/* Buttons */}
+      
             <div className="mt-8 flex flex-wrap gap-4">
               
               <Link href="/Testride">
