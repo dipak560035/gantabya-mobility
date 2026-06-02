@@ -82,13 +82,12 @@ export default function Navbar() {
             
             {/* Logo Section */}
             
-            <Link href="/" className="flex items-center gap-3 group cursor-pointer">
+            <Link href="/" className="flex items-center gap-3 cursor-pointer">
                 <Image
                 src={gantabyaLogo}
                 alt="Gantabya logo"
-                className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
-                width={56}
-                height={56}
+                className="h-auto sm:h-12 md:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+              
                 priority
                   />
                   </Link>
