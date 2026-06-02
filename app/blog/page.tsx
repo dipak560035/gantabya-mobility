@@ -18,7 +18,7 @@ const BlogSection: React.FC = () => {
       category: 'Tips',
       title: '5 Tips for Battery Longevity',
       description: "Maximize your electric motorcycle's battery life with expert tips.",
-      date: 'Jan 15, 2024', // Added matching date from original picture
+      date: 'Jan 15, 2025',
       color: 'text-green-400',
       bg: 'bg-green-500/10',
       image: 'https://images.unsplash.com/photo-1600428235269-c326df6361fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJhdHRlcnklMjBwYWNrfGVufDB8fDB8fHww', 
