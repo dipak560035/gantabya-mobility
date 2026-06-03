@@ -30,7 +30,6 @@ function NavItem({ href, children, onClick }: { href: string; children: React.Re
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const pathname = usePathname();
 
   // Handle scroll effect
   useEffect(() => {
@@ -40,11 +39,6 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [setIsScrolled]);
-
-  // Close menu when route changes
-  useEffect(() => {
-    setIsMenuOpen(false);
-  }, [pathname, setIsMenuOpen]);
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -84,12 +78,14 @@ export default function Navbar() {
             
             <Link href="/" className="flex items-center gap-3 cursor-pointer">
                 <Image
-                src={gantabyaLogo}
-                alt="Gantabya logo"
-                className="h-auto sm:h-12 md:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
-              
-                priority
-                  />
+                  src={gantabyaLogo}
+                  alt="Gantabya logo"
+                  width={120}
+                  height={40}
+                  className="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105 sm:h-10 md:h-12"
+                  style={{ width: 'auto', height: 'auto' }}
+                  priority
+                />
                   </Link>
 
             {/* Desktop Navigation */}

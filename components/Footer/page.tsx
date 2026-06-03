@@ -23,9 +23,10 @@ export default function Footer() {
                 <Image
                   src={gantabyaLogo}
                   alt="Gantabya logo"
-                  className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
                   width={40}
                   height={40}
+                  className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+                  style={{ width: 'auto', height: 'auto' }}
                   priority
                 />
                 <span className="text-2xl font-bold group-hover:text-green-500 transition-colors">
