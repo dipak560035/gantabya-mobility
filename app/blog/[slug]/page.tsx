@@ -304,6 +304,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -573,7 +622,7 @@ export default async function BlogDetailPage({ params }: Props) {
               )}
 
               {/* Newsletter Signup */}
-              {/* <div className="bg-gradient-to-br from-green-900/20 to-blue-900/20 border border-green-500/20 rounded-xl p-6">
+              <div className="bg-gradient-to-br from-green-900/20 to-blue-900/20 border border-green-500/20 rounded-xl p-6">
                 <div className="text-center">
                   <div className="text-3xl mb-3">📧</div>
                   <h3 className="text-lg font-bold text-white mb-2">
@@ -593,7 +642,7 @@ export default async function BlogDetailPage({ params }: Props) {
                     </button>
                   </form>
                 </div>
-              </div> */}
+              </div>
 
               {/* Share Article */}
               <div className="bg-[#111111] border border-gray-800 rounded-xl p-6">
@@ -623,3 +672,68 @@ export default async function BlogDetailPage({ params }: Props) {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
