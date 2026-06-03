@@ -522,7 +522,7 @@ export default async function BlogDetailPage({ params }: Props) {
                 className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group"
               >
                 <span className="transition-transform group-hover:-translate-x-1">←</span>
-                Back to all articles
+                Back to all articless
               </Link>
             </div>
           </div>
