@@ -567,7 +567,7 @@ export default async function BlogDetailPage({ params }: Props) {
             {/* Back to Blog Button */}
             <div className="mt-10">
               <Link
-                href="/#blog"
+                href="/blog"
                 className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group"
               >
                 <span className="transition-transform group-hover:-translate-x-1">←</span>
