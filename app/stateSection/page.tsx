@@ -30,12 +30,12 @@ export default function StatsSection() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
           {stats.map((item) => (
             <div key={item.id}>
-              {/* Number */}
+           
               <h2 className="text-4xl md:text-6xl font-extrabold text-[#00E676]">
                 {item.value}
               </h2>
 
-              {/* Label */}
+            
               <p className="mt-4 text-gray-400 text-lg">
                 {item.label}
               </p>
