@@ -59,7 +59,7 @@ export default function Technology() {
   return (
     <section className="w-full bg-black text-white py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-        {/* Heading */}
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
             Our{" "}
@@ -73,7 +73,7 @@ export default function Technology() {
           </p>
         </div>
 
-        {/* Technology Cards */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {technologies.map((item) => {
             const Icon = item.icon;
@@ -91,12 +91,13 @@ export default function Technology() {
                   p-8
                 "
               >
-                {/* Glow Effect */}
+               
                 <div className="absolute inset-0 rounded-2xl bg-green-500/5 opacity-0" />
 
                 {/* Icon */}
                 <div className="relative z-10 mb-6">
-                  {/* Battery Icon */}
+                 
+
                   {item.icon === "battery" ? (
                     <div className="inline-flex items-center justify-center rounded-md bg-black">
                       <FaBatteryEmpty
@@ -105,7 +106,8 @@ export default function Technology() {
                       />
                     </div>
                   ) : item.icon === "charging" ? (
-                    /* Charging Icon */
+                   
+
                     <div className="bg-black inline-flex p-1 rounded-md">
                       <TbChargingPileFilled
                         size={42}
@@ -113,7 +115,7 @@ export default function Technology() {
                       />
                     </div>
                   ) : (
-                    /* Lucide Icons */
+                   
                     <Icon
                       size={40}
                       className="text-green-500"
@@ -122,7 +124,7 @@ export default function Technology() {
                   )}
                 </div>
 
-                {/* Content */}
+               
                 <div className="relative z-10">
                   <h3 className="text-2xl font-semibold mb-4">
                     {item.title}
@@ -137,7 +139,8 @@ export default function Technology() {
           })}
         </div>
 
-        {/* Made in Nepal Section */}
+        
+        
         <div className="mt-28 text-center max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
             Proudly{" "}

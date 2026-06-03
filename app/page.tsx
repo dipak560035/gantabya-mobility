@@ -7,19 +7,11 @@ import WhyChooseSection from "./whyChooseUs/page";
 export default function HomePage() {
   return (
     <main >
-
-
-      
     <HeroSection />
     <WhyChooseSection />
     <VehiclesSection />
     <StatsSection />
     <ReadyToRide />
-    
-
-         
-
-
 </main>
   )
 }

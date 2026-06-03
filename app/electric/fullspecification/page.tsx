@@ -54,7 +54,6 @@ export default function FullSpecifications() {
 
       <div className="mt-10">
 
-        {/* Heading */}
         <div className="text-center mb-10">
           <h2 className="text-4xl font-bold text-white">
             Full{" "}
@@ -64,7 +63,7 @@ export default function FullSpecifications() {
           </h2>
         </div>
 
-        {/* Specs Grid */}
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
 
           {specifications.map((item) => {
@@ -76,15 +75,12 @@ export default function FullSpecifications() {
                 className="bg-[#111111] border border-white/10 rounded-xl p-6 text-center transition "
               >
 
-                {/* Icon */}
                 <Icon className="w-8 h-8 text-green-500 mx-auto mb-4" />
 
-                {/* Title */}
                 <h3 className="text-white text-2xl font-semibold">
                   {item.title}
                 </h3>
 
-                {/* Description */}
                 <p className="text-gray-400 mt-3 text-base">
                   {item.description}
                 </p>
