@@ -1,5 +1,5 @@
 
-// components/BlogSection.tsx
+
 'use client'
 
 import React from 'react';
@@ -18,32 +18,32 @@ const BlogSection: React.FC = () => {
       color: 'text-blue-400',
       bg: 'bg-blue-500/10',
       image: 'https://images.unsplash.com/photo-1617704548623-340376564e68?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0',
-      content: `
-        <p>The electric vehicle revolution is finally taking hold in Nepal, transforming the way people traverse the Himalayan nation's challenging terrain. With rising fuel costs and growing environmental awareness, EVs have become an attractive alternative for Nepali commuters.</p>
+      // content: `
+      //   <p>The electric vehicle revolution is finally taking hold in Nepal, transforming the way people traverse the Himalayan nation's challenging terrain. With rising fuel costs and growing environmental awareness, EVs have become an attractive alternative for Nepali commuters.</p>
         
-        <h2>The Current Landscape</h2>
-        <p>Nepal has seen a remarkable 400% increase in EV adoption over the past two years. The government's ambitious goal of achieving 25% EV penetration by 2025 is well within reach, thanks to supportive policies and growing consumer confidence.</p>
+      //   <h2>The Current Landscape</h2>
+      //   <p>Nepal has seen a remarkable 400% increase in EV adoption over the past two years. The government's ambitious goal of achieving 25% EV penetration by 2025 is well within reach, thanks to supportive policies and growing consumer confidence.</p>
         
-        <h2>Overcoming Mountain Challenges</h2>
-        <p>Modern EVs are proving their mettle on steep Himalayan slopes. Advanced battery management systems and regenerative braking technology make electric vehicles surprisingly capable in mountainous regions. The torque advantage of electric motors provides excellent hill-climbing ability.</p>
+      //   <h2>Overcoming Mountain Challenges</h2>
+      //   <p>Modern EVs are proving their mettle on steep Himalayan slopes. Advanced battery management systems and regenerative braking technology make electric vehicles surprisingly capable in mountainous regions. The torque advantage of electric motors provides excellent hill-climbing ability.</p>
         
-        <h2>Economic Benefits</h2>
-        <p>For the average Nepali consumer, EVs offer significant savings. With electricity costs being substantially lower than petrol or diesel, EV owners can save up to 70% on fuel costs. Additionally, reduced maintenance requirements (no oil changes, fewer moving parts) add to the long-term savings.</p>
+      //   <h2>Economic Benefits</h2>
+      //   <p>For the average Nepali consumer, EVs offer significant savings. With electricity costs being substantially lower than petrol or diesel, EV owners can save up to 70% on fuel costs. Additionally, reduced maintenance requirements (no oil changes, fewer moving parts) add to the long-term savings.</p>
         
-        <h2>Environmental Impact</h2>
-        <p>Nepal's hydropower-rich grid makes EVs even greener. Unlike many countries that rely on fossil fuels for electricity, Nepal's predominantly hydroelectric power means EVs here have near-zero lifetime emissions. Each EV on Nepali roads prevents approximately 2.5 tons of CO2 emissions annually.</p>
+      //   <h2>Environmental Impact</h2>
+      //   <p>Nepal's hydropower-rich grid makes EVs even greener. Unlike many countries that rely on fossil fuels for electricity, Nepal's predominantly hydroelectric power means EVs here have near-zero lifetime emissions. Each EV on Nepali roads prevents approximately 2.5 tons of CO2 emissions annually.</p>
         
-        <h2>Charging Infrastructure Development</h2>
-        <p>Major progress has been made in developing charging networks. Key highways now feature DC fast chargers, and urban centers have growing networks of AC charging points. The government's partnership with private companies is accelerating infrastructure deployment.</p>
+      //   <h2>Charging Infrastructure Development</h2>
+      //   <p>Major progress has been made in developing charging networks. Key highways now feature DC fast chargers, and urban centers have growing networks of AC charging points. The government's partnership with private companies is accelerating infrastructure deployment.</p>
         
-        <h2>Looking Ahead</h2>
-        <p>The future looks bright for EVs in Nepal. With battery prices continuing to fall and new models entering the market, electric vehicles are becoming accessible to more Nepalis. The next five years will likely see EVs become the dominant form of personal transportation in Nepal's cities.</p>
-      `,
-      author: {
-        name: 'Rajesh Thapa',
-        role: 'EV Industry Expert',
-        avatar: 'https://ui-avatars.com/api/?name=Rajesh+Thapa&background=22c55e&color=fff'
-      }
+      //   <h2>Looking Ahead</h2>
+      //   <p>The future looks bright for EVs in Nepal. With battery prices continuing to fall and new models entering the market, electric vehicles are becoming accessible to more Nepalis. The next five years will likely see EVs become the dominant form of personal transportation in Nepal's cities.</p>
+      // `,
+      // author: {
+      //   name: 'Rajesh Thapa',
+      //   role: 'EV Industry Expert',
+      //   avatar: 'https://ui-avatars.com/api/?name=Rajesh+Thapa&background=22c55e&color=fff'
+      // }
     },
     {
       id: 2,
@@ -55,34 +55,34 @@ const BlogSection: React.FC = () => {
       color: 'text-green-400',
       bg: 'bg-green-500/10',
       image: 'https://images.unsplash.com/photo-1600428235269-c326df6361fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0',
-      content: `
-        <p>Your EV battery is the heart of your electric motorcycle. Proper care can significantly extend its lifespan, saving you money and ensuring optimal performance for years to come. Here are five essential tips for maximizing battery longevity.</p>
+      // content: `
+      //   <p>Your EV battery is the heart of your electric motorcycle. Proper care can significantly extend its lifespan, saving you money and ensuring optimal performance for years to come. Here are five essential tips for maximizing battery longevity.</p>
         
-        <h2>1. Avoid Extreme Charging Levels</h2>
-        <p>Lithium-ion batteries last longest when kept between 20% and 80% charge. Regularly charging to 100% or letting the battery drain completely to 0% can accelerate degradation. Aim to keep your battery in the "sweet spot" for daily use.</p>
+      //   <h2>1. Avoid Extreme Charging Levels</h2>
+      //   <p>Lithium-ion batteries last longest when kept between 20% and 80% charge. Regularly charging to 100% or letting the battery drain completely to 0% can accelerate degradation. Aim to keep your battery in the "sweet spot" for daily use.</p>
         
-        <h2>2. Be Mindful of Temperature</h2>
-        <p>Extreme heat is the #1 enemy of battery health. Avoid parking your EV in direct sunlight for extended periods. Similarly, very cold temperatures can temporarily reduce range and long-term exposure can cause damage. When possible, park in shaded or temperature-controlled areas.</p>
+      //   <h2>2. Be Mindful of Temperature</h2>
+      //   <p>Extreme heat is the #1 enemy of battery health. Avoid parking your EV in direct sunlight for extended periods. Similarly, very cold temperatures can temporarily reduce range and long-term exposure can cause damage. When possible, park in shaded or temperature-controlled areas.</p>
         
-        <h2>3. Use the Right Charger</h2>
-        <p>While fast chargers are convenient, frequent use can generate excess heat and stress the battery. For daily charging, use a standard Level 2 charger. Reserve DC fast charging for road trips and emergencies when you truly need a quick top-up.</p>
+      //   <h2>3. Use the Right Charger</h2>
+      //   <p>While fast chargers are convenient, frequent use can generate excess heat and stress the battery. For daily charging, use a standard Level 2 charger. Reserve DC fast charging for road trips and emergencies when you truly need a quick top-up.</p>
         
-        <h2>4. Follow the "ABC" Rule</h2>
-        <p>"Always Be Charging" - when your EV is parked, plug it in. This allows the battery management system to maintain optimal temperature and charge levels. Modern EVs are designed to be plugged in, so don't worry about "overcharging" - the system handles this automatically.</p>
+      //   <h2>4. Follow the "ABC" Rule</h2>
+      //   <p>"Always Be Charging" - when your EV is parked, plug it in. This allows the battery management system to maintain optimal temperature and charge levels. Modern EVs are designed to be plugged in, so don't worry about "overcharging" - the system handles this automatically.</p>
         
-        <h2>5. Regular Maintenance Matters</h2>
-        <p>Keep your battery management system updated with the latest firmware. Have your battery health checked annually by professionals. Simple maintenance like keeping battery contacts clean and ensuring proper cooling system function can make a big difference.</p>
+      //   <h2>5. Regular Maintenance Matters</h2>
+      //   <p>Keep your battery management system updated with the latest firmware. Have your battery health checked annually by professionals. Simple maintenance like keeping battery contacts clean and ensuring proper cooling system function can make a big difference.</p>
         
-        <h2>Bonus Tip: Drive Smoothly</h2>
-        <p>Aggressive acceleration and hard braking put extra stress on your battery. Smooth, gradual acceleration and using regenerative braking not only extends range but also promotes battery health over the long term.</p>
+      //   <h2>Bonus Tip: Drive Smoothly</h2>
+      //   <p>Aggressive acceleration and hard braking put extra stress on your battery. Smooth, gradual acceleration and using regenerative braking not only extends range but also promotes battery health over the long term.</p>
         
-        <p>By following these tips, you can expect your EV battery to retain 80-90% of its capacity even after 5-7 years of regular use.</p>
-      `,
-      author: {
-        name: 'Srijana KC',
-        role: 'EV Technician',
-        avatar: 'https://ui-avatars.com/api/?name=Srijana+KC&background=22c55e&color=fff'
-      }
+      //   <p>By following these tips, you can expect your EV battery to retain 80-90% of its capacity even after 5-7 years of regular use.</p>
+      // `,
+      // author: {
+      //   name: 'Srijana KC',
+      //   role: 'EV Technician',
+      //   avatar: 'https://ui-avatars.com/api/?name=Srijana+KC&background=22c55e&color=fff'
+      // }
     },
     {
       id: 3,
@@ -94,35 +94,35 @@ const BlogSection: React.FC = () => {
       color: 'text-purple-400',
       bg: 'bg-purple-500/10',
       image: 'https://images.unsplash.com/photo-1671785291804-5e1286d29049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0',
-      content: `
-        <p>Nepal is witnessing an unprecedented expansion of its electric vehicle charging infrastructure, transforming the feasibility of long-distance EV travel across the country. From the Terai plains to the Himalayan foothills, charging stations are appearing at an impressive rate.</p>
+      // content: `
+      //   <p>Nepal is witnessing an unprecedented expansion of its electric vehicle charging infrastructure, transforming the feasibility of long-distance EV travel across the country. From the Terai plains to the Himalayan foothills, charging stations are appearing at an impressive rate.</p>
         
-        <h2>East-West Highway Now Covered</h2>
-        <p>The critical Mahendra Highway (East-West Highway) now has fast chargers every 80-100 kilometers, making cross-country EV travel practical for the first time. Major stops in Biratnagar, Janakpur, Narayanghat, Butwal, and Dhangadhi all feature DC fast charging capabilities.</p>
+      //   <h2>East-West Highway Now Covered</h2>
+      //   <p>The critical Mahendra Highway (East-West Highway) now has fast chargers every 80-100 kilometers, making cross-country EV travel practical for the first time. Major stops in Biratnagar, Janakpur, Narayanghat, Butwal, and Dhangadhi all feature DC fast charging capabilities.</p>
         
-        <h2>Kathmandu Valley Leading the Way</h2>
-        <p>The capital region has become a model for urban charging infrastructure. Over 200 charging points now operate across the valley, with many shopping malls, hotels, and public parking facilities offering convenient charging options for EV owners.</p>
+      //   <h2>Kathmandu Valley Leading the Way</h2>
+      //   <p>The capital region has become a model for urban charging infrastructure. Over 200 charging points now operate across the valley, with many shopping malls, hotels, and public parking facilities offering convenient charging options for EV owners.</p>
         
-        <h2>Tourist Routes Getting Connected</h2>
-        <p>Popular tourist destinations including Pokhara, Lumbini, and Chitwan now feature dedicated charging stations. This development is encouraging eco-conscious tourists to explore Nepal using electric transportation options.</p>
+      //   <h2>Tourist Routes Getting Connected</h2>
+      //   <p>Popular tourist destinations including Pokhara, Lumbini, and Chitwan now feature dedicated charging stations. This development is encouraging eco-conscious tourists to explore Nepal using electric transportation options.</p>
         
-        <h2>Government Initiatives</h2>
-        <p>The Nepal Electricity Authority has installed 50 fast chargers along major highways as part of its "Green Highway" initiative. The government offers subsidies and land allocation to private companies willing to invest in charging infrastructure.</p>
+      //   <h2>Government Initiatives</h2>
+      //   <p>The Nepal Electricity Authority has installed 50 fast chargers along major highways as part of its "Green Highway" initiative. The government offers subsidies and land allocation to private companies willing to invest in charging infrastructure.</p>
         
-        <h2>Private Sector Investment</h2>
-        <p>Companies like Gantabya, NEA, and various fuel retailers are investing heavily in charging networks. Innovative solutions including solar-powered charging stations and battery swapping stations are being piloted in select locations.</p>
+      //   <h2>Private Sector Investment</h2>
+      //   <p>Companies like Gantabya, NEA, and various fuel retailers are investing heavily in charging networks. Innovative solutions including solar-powered charging stations and battery swapping stations are being piloted in select locations.</p>
         
-        <h2>Mobile Apps and Navigation</h2>
-        <p>New mobile applications now provide real-time information about charger availability, pricing, and compatibility. Route planning tools help EV owners navigate Nepal's growing but still-developing charging network.</p>
+      //   <h2>Mobile Apps and Navigation</h2>
+      //   <p>New mobile applications now provide real-time information about charger availability, pricing, and compatibility. Route planning tools help EV owners navigate Nepal's growing but still-developing charging network.</p>
         
-        <h2>Future Plans</h2>
-        <p>By 2028, Nepal aims to have charging stations in all 77 districts. International cooperation with neighboring countries is also progressing, with plans for cross-border charging corridors connecting Nepal with India and China.</p>
-      `,
-      author: {
-        name: 'Anil Shrestha',
-        role: 'Infrastructure Reporter',
-        avatar: 'https://ui-avatars.com/api/?name=Anil+Shrestha&background=22c55e&color=fff'
-      }
+      //   <h2>Future Plans</h2>
+      //   <p>By 2028, Nepal aims to have charging stations in all 77 districts. International cooperation with neighboring countries is also progressing, with plans for cross-border charging corridors connecting Nepal with India and China.</p>
+      // `,
+      // author: {
+      //   name: 'Anil Shrestha',
+      //   role: 'Infrastructure Reporter',
+      //   avatar: 'https://ui-avatars.com/api/?name=Anil+Shrestha&background=22c55e&color=fff'
+      // }
     },
     {
       id: 4,
@@ -158,11 +158,11 @@ const BlogSection: React.FC = () => {
         <h2>Essential Accessories</h2>
         <p>Invest in quality rain gear (EVs handle wet conditions well, but you shouldn't), a portable charger, tire repair kit, and a power bank for your devices. Navigation apps with charging station locations are indispensable.</p>
       `,
-      author: {
-        name: 'Prakash Neupane',
-        role: 'Adventure Rider',
-        avatar: 'https://ui-avatars.com/api/?name=Prakash+Neupane&background=22c55e&color=fff'
-      }
+        // author: {
+        //   name: 'Prakash Neupane',
+        //   role: 'Adventure Rider',
+        //   avatar: 'https://ui-avatars.com/api/?name=Prakash+Neupane&background=22c55e&color=fff'
+        // }
     },
     {
       id: 5,
@@ -174,37 +174,37 @@ const BlogSection: React.FC = () => {
       color: 'text-orange-400',
       bg: 'bg-orange-500/10',
       image: 'https://images.unsplash.com/photo-1551836022-4c4c79ecde51?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
-      content: `
-        <p>2025 was a transformative year for Gantabya. From record-breaking sales to innovative product launches, we've made significant strides in our mission to electrify Nepal's transportation. Here's a comprehensive look back at our achievements.</p>
+      // content: `
+      //   <p>2025 was a transformative year for Gantabya. From record-breaking sales to innovative product launches, we've made significant strides in our mission to electrify Nepal's transportation. Here's a comprehensive look back at our achievements.</p>
         
-        <h2>Record-Breaking Sales</h2>
-        <p>We sold over 5,000 electric motorcycles in 2025, a 150% increase from the previous year. This growth reflects increasing consumer confidence in EV technology and our reputation for quality and reliability.</p>
+      //   <h2>Record-Breaking Sales</h2>
+      //   <p>We sold over 5,000 electric motorcycles in 2025, a 150% increase from the previous year. This growth reflects increasing consumer confidence in EV technology and our reputation for quality and reliability.</p>
         
-        <h2>New Product Launches</h2>
-        <p>March saw the launch of the Gantabya Himalayan, our first adventure-touring EV designed specifically for Nepal's terrain. With extended range (150km) and rugged construction, it quickly became our best-selling model.</p>
+      //   <h2>New Product Launches</h2>
+      //   <p>March saw the launch of the Gantabya Himalayan, our first adventure-touring EV designed specifically for Nepal's terrain. With extended range (150km) and rugged construction, it quickly became our best-selling model.</p>
         
-        <h2>Expanded Dealer Network</h2>
-        <p>We opened 15 new dealerships across Nepal, bringing our total to 35 locations nationwide. This expansion has made Gantabya products accessible to customers in all seven provinces.</p>
+      //   <h2>Expanded Dealer Network</h2>
+      //   <p>We opened 15 new dealerships across Nepal, bringing our total to 35 locations nationwide. This expansion has made Gantabya products accessible to customers in all seven provinces.</p>
         
-        <h2>Charging Infrastructure Partnership</h2>
-        <p>Our partnership with Nepal Electricity Authority resulted in 25 new fast-charging stations along major highways. This infrastructure investment is critical for enabling long-distance EV travel in Nepal.</p>
+      //   <h2>Charging Infrastructure Partnership</h2>
+      //   <p>Our partnership with Nepal Electricity Authority resulted in 25 new fast-charging stations along major highways. This infrastructure investment is critical for enabling long-distance EV travel in Nepal.</p>
         
-        <h2>Customer Satisfaction Excellence</h2>
-        <p>We achieved a 94% customer satisfaction rating, with particular praise for our after-sales service and battery warranty program. Our mobile service vans have brought maintenance to customers in remote areas.</p>
+      //   <h2>Customer Satisfaction Excellence</h2>
+      //   <p>We achieved a 94% customer satisfaction rating, with particular praise for our after-sales service and battery warranty program. Our mobile service vans have brought maintenance to customers in remote areas.</p>
         
-        <h2>Sustainability Impact</h2>
-        <p>Gantabya EVs on the road have collectively prevented over 12,500 tons of CO2 emissions in 2025 alone. Our manufacturing process now uses 40% renewable energy, with a goal of 100% by 2028.</p>
+      //   <h2>Sustainability Impact</h2>
+      //   <p>Gantabya EVs on the road have collectively prevented over 12,500 tons of CO2 emissions in 2025 alone. Our manufacturing process now uses 40% renewable energy, with a goal of 100% by 2028.</p>
         
-        <h2>Looking Ahead to 2026</h2>
-        <p>Next year brings exciting developments: a more affordable city commuter model, expanded battery swapping stations, and our first export to international markets. We're also developing a mobile app that will offer advanced trip planning and charging network integration.</p>
+      //   <h2>Looking Ahead to 2026</h2>
+      //   <p>Next year brings exciting developments: a more affordable city commuter model, expanded battery swapping stations, and our first export to international markets. We're also developing a mobile app that will offer advanced trip planning and charging network integration.</p>
         
-        <p>Thank you to our customers, partners, and team members who made 2025 unforgettable. The road ahead is electric, and we're excited to lead the way.</p>
-      `,
-      author: {
-        name: 'Bikram Gurung',
-        role: 'CEO, Gantabya',
-        avatar: 'https://ui-avatars.com/api/?name=Bikram+Gurung&background=22c55e&color=fff'
-      }
+      //   <p>Thank you to our customers, partners, and team members who made 2025 unforgettable. The road ahead is electric, and we're excited to lead the way.</p>
+      // `,
+      // author: {
+      //   name: 'Bikram Gurung',
+      //   role: 'CEO, Gantabya',
+      //   avatar: 'https://ui-avatars.com/api/?name=Bikram+Gurung&background=22c55e&color=fff'
+      // }
     },
     {
       id: 6,
@@ -216,40 +216,40 @@ const BlogSection: React.FC = () => {
       color: 'text-purple-400',
       bg: 'bg-purple-500/10',
       image: 'https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?q=80&w=1200&auto=format&fit=crop',
-      content: `
-        <p>With over 5,000 Gantabya electric motorcycles now on Nepali roads, we've crunched the numbers to understand our collective environmental impact. The results are impressive and demonstrate the power of EV adoption in reducing carbon emissions.</p>
+      // content: `
+      //   <p>With over 5,000 Gantabya electric motorcycles now on Nepali roads, we've crunched the numbers to understand our collective environmental impact. The results are impressive and demonstrate the power of EV adoption in reducing carbon emissions.</p>
         
-        <h2>The Math Behind the Impact</h2>
-        <p>Each Gantabya EV replaces approximately 2,500km of monthly travel that would otherwise be done on a petrol motorcycle. Based on average fuel consumption of 40km per liter and Nepal's carbon coefficient for petrol (2.31 kg CO2 per liter), each EV prevents about 175kg of CO2 emissions monthly.</p>
+      //   <h2>The Math Behind the Impact</h2>
+      //   <p>Each Gantabya EV replaces approximately 2,500km of monthly travel that would otherwise be done on a petrol motorcycle. Based on average fuel consumption of 40km per liter and Nepal's carbon coefficient for petrol (2.31 kg CO2 per liter), each EV prevents about 175kg of CO2 emissions monthly.</p>
         
-        <h2>Annual Savings</h2>
-        <p>With 5,000 EVs operating for an average of 10 months per year, we're preventing approximately 8,750 tons of CO2 emissions annually. This is equivalent to:</p>
-        <ul>
-          <li>Planting 145,000 mature trees</li>
-          <li>Removing 1,900 cars from the road for a year</li>
-          <li>Powering 1,100 homes for a year</li>
-        </ul>
+      //   <h2>Annual Savings</h2>
+      //   <p>With 5,000 EVs operating for an average of 10 months per year, we're preventing approximately 8,750 tons of CO2 emissions annually. This is equivalent to:</p>
+      //   <ul>
+      //     <li>Planting 145,000 mature trees</li>
+      //     <li>Removing 1,900 cars from the road for a year</li>
+      //     <li>Powering 1,100 homes for a year</li>
+      //   </ul>
         
-        <h2>Nepal's Unique Green Advantage</h2>
-        <p>Nepal's electricity grid is approximately 95% renewable (primarily hydropower), making EVs here substantially cleaner than in countries relying on coal or natural gas for electricity generation. The lifetime emissions of a Gantabya EV in Nepal are 90% lower than a comparable petrol motorcycle.</p>
+      //   <h2>Nepal's Unique Green Advantage</h2>
+      //   <p>Nepal's electricity grid is approximately 95% renewable (primarily hydropower), making EVs here substantially cleaner than in countries relying on coal or natural gas for electricity generation. The lifetime emissions of a Gantabya EV in Nepal are 90% lower than a comparable petrol motorcycle.</p>
         
-        <h2>Cumulative Impact by 2028</h2>
-        <p>If we achieve our goal of 25,000 Gantabya EVs on the road by 2028, the annual CO2 savings would reach 43,750 tons. Over five years, cumulative savings would exceed 150,000 tons of CO2.</p>
+      //   <h2>Cumulative Impact by 2028</h2>
+      //   <p>If we achieve our goal of 25,000 Gantabya EVs on the road by 2028, the annual CO2 savings would reach 43,750 tons. Over five years, cumulative savings would exceed 150,000 tons of CO2.</p>
         
-        <h2>Beyond Carbon</h2>
-        <p>EVs also reduce other pollutants harmful to human health, including nitrogen oxides, particulate matter, and volatile organic compounds. In Kathmandu Valley, where air quality is a major concern, widespread EV adoption could significantly improve respiratory health outcomes.</p>
+      //   <h2>Beyond Carbon</h2>
+      //   <p>EVs also reduce other pollutants harmful to human health, including nitrogen oxides, particulate matter, and volatile organic compounds. In Kathmandu Valley, where air quality is a major concern, widespread EV adoption could significantly improve respiratory health outcomes.</p>
         
-        <h2>Manufacturing Footprint</h2>
-        <p>We're transparent about the environmental cost of battery production. The carbon footprint of manufacturing a Gantabya EV (including its battery) is offset within 6-8 months of typical use in Nepal. Our battery recycling program ensures responsible end-of-life management.</p>
+      //   <h2>Manufacturing Footprint</h2>
+      //   <p>We're transparent about the environmental cost of battery production. The carbon footprint of manufacturing a Gantabya EV (including its battery) is offset within 6-8 months of typical use in Nepal. Our battery recycling program ensures responsible end-of-life management.</p>
         
-        <h2>Your Role in This Impact</h2>
-        <p>Every Gantabya rider is an environmental champion. By choosing electric, you're directly contributing to cleaner air, reduced fossil fuel dependence, and a sustainable future for Nepal. Together, we're proving that economic development and environmental protection can go hand in hand.</p>
-      `,
-      author: {
-        name: 'Dr. Sarah Lamichhane',
-        role: 'Environmental Scientist',
-        avatar: 'https://ui-avatars.com/api/?name=Sarah+Lamichhane&background=22c55e&color=fff'
-      }
+      //   <h2>Your Role in This Impact</h2>
+      //   <p>Every Gantabya rider is an environmental champion. By choosing electric, you're directly contributing to cleaner air, reduced fossil fuel dependence, and a sustainable future for Nepal. Together, we're proving that economic development and environmental protection can go hand in hand.</p>
+      // `,
+      // author: {
+      //   name: 'Dr. Sarah Lamichhane',
+      //   role: 'Environmental Scientist',
+      //   avatar: 'https://ui-avatars.com/api/?name=Sarah+Lamichhane&background=22c55e&color=fff'
+      // }
     },
   ];
 
@@ -259,7 +259,7 @@ const BlogSection: React.FC = () => {
         
         <div className="text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold mb-3">
-            Blog &<span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">  News</span>
+            Blog &<span className="bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">  News</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Stay updated with the latest in electric vehicle technology, tips, and industry news
@@ -286,7 +286,7 @@ const BlogSection: React.FC = () => {
                 </div>
              
                 {/* Content Container */}
-                <div className="p-5 md:p-6 flex flex-col flex-grow">
+                <div className="p-5 md:p-6 flex flex-col grow">
                   <div className="mb-3">
                     <span
                       className={`inline-block px-3 py-1 text-xs font-semibold rounded-full ${post.bg} ${post.color}`}
@@ -295,11 +295,11 @@ const BlogSection: React.FC = () => {
                     </span>
                   </div>
 
-                  <h3 className="text-lg md:text-xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors line-clamp-2 min-h-[3.5rem]">
+                  <h3 className="text-lg md:text-xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors line-clamp-2 min-h-14">
                     {post.title}
                   </h3>
 
-                  <p className="text-gray-400 text-sm md:text-base mb-4 leading-relaxed line-clamp-3 min-h-[4.5rem]">
+                  <p className="text-gray-400 text-sm md:text-base mb-4 leading-relaxed line-clamp-3 min-h-18">
                     {post.description}
                   </p>
 
