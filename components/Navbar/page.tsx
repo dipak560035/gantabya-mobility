@@ -53,15 +53,7 @@ export default function Navbar() {
     };
   }, [isMenuOpen]);
 
-  const navItems = [
-    { href: '/', label: 'Home' },
-    { href: '/electric', label: 'Our Bikes' },
-    { href: '/technology', label: 'Technology' },
-    { href: '/about-us', label: 'About Us' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/Support', label: 'Support' },
-    { href: '/Contact', label: 'Contact' },
-  ];
+
 
   return (
     <>
