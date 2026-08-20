@@ -68,16 +68,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20 md:h-24">
             
             {/* Logo Section - Larger professional size */}
-            <Link href="/" className="flex items-center cursor-pointer shrink-0 group">
-              <Image
-                src={gantabyaLogo}
-                alt="Gantabya logo"
-                width={160}
-                height={48}
-                className="w-auto h-10 sm:h-12 md:h-14 lg:h-16 object-contain transition-transform duration-300 group-hover:scale-105"
-                priority
-              />
-            </Link>
+           
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-8 xl:gap-10">
