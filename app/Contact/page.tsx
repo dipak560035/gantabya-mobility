@@ -12,10 +12,7 @@ export default function Contact() {
        
         <form className="bg-[#111] p-8 rounded-2xl border border-gray-800 ">
           <div className="space-y-6">
-            <div>
-              <label className="block text-sm font-medium mb-2 text-gray-400">Name</label>
-              <input type="text" placeholder="Your full name" className="w-full bg-[#0a0a0a] border border-gray-700 rounded-lg p-3 focus:ring-2 focus:ring-green-500 outline-none transition" />
-            </div>
+          
             <div>
               <label className="block text-sm font-medium mb-2 text-gray-400">Email</label>
               <input type="email" placeholder="your@email.com" className="w-full bg-[#0a0a0a] border border-gray-700 rounded-lg p-3 focus:ring-2 focus:ring-green-500 outline-none transition" />
