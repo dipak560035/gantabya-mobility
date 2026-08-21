@@ -5,12 +5,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white p-8 md:p-16">
        <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold mb-12">
-                Contact{' '}
-                <span className="bg-clip-text text-transparent bg-linear-to-r from-[#00e676] to-[#0055ff]">
-                Us
-                </span>
-            </h1>
+         
         </div>
       <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         
