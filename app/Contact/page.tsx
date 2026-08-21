@@ -25,10 +25,7 @@ export default function Contact() {
               <label className="block text-sm font-medium mb-2 text-gray-400">Email</label>
               <input type="email" placeholder="your@email.com" className="w-full bg-[#0a0a0a] border border-gray-700 rounded-lg p-3 focus:ring-2 focus:ring-green-500 outline-none transition" />
             </div>
-            <div>
-              <label className="block text-sm font-medium mb-2 text-gray-400">Message</label>
-              <textarea placeholder="How can we help?" rows={4} className="w-full h-65 bg-[#0a0a0a] border border-gray-700 rounded-lg p-3 focus:ring-2 focus:ring-green-500 outline-none transition"></textarea>
-            </div>
+        
            
           </div>
         </form>
