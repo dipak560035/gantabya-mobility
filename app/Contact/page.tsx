@@ -10,14 +10,7 @@ export default function Contact() {
       <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         
        
-        <form className="bg-[#111] p-8 rounded-2xl border border-gray-800 ">
-          <div className="space-y-6">
-          
-          
-        
-           
-          </div>
-        </form>
+   
 
       
         <div className="space-y-8">
