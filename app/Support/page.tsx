@@ -26,11 +26,7 @@ export default function Support() {
       question: "What warranty do you offer?",
       answer: "All Gantabya motorcycles come with a 5 year warranty on the battery pack."
     },
-    {
-      id: "faq-4",
-      question: "Where can i get my bike serviced?",
-      answer: "We have service centers only in Kathmandu Valley."
-    },
+  
     {
       id: "faq-5",
       question: "Is financing available?",
