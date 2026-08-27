@@ -15,11 +15,7 @@ export default function Support() {
 
 
   
-    {
-      id: "faq-5",
-      question: "Is financing available?",
-      answer: "Yes! We partner with major Nepali banks and financial institutions to offer attractive EMI plans starting from NPR 8000/month."
-    },
+
     {
       id: "faq-6",
       question: "Can i ride in rain?",
