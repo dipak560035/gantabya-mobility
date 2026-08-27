@@ -17,11 +17,7 @@ export default function Support() {
       question: "How long does it take to charge?",
       answer: "A full charge takes 3 hours at home. Fast charging to 80% is available in under 40 minutes at supported stations."
     },
-    {
-      id: "faq-3",
-      question: "What warranty do you offer?",
-      answer: "All Gantabya motorcycles come with a 5 year warranty on the battery pack."
-    },
+
   
     {
       id: "faq-5",
