@@ -12,11 +12,7 @@ import {
 export default function Support() {
   const faqs = [
  
-    {
-      id: "faq-2",
-      question: "How long does it take to charge?",
-      answer: "A full charge takes 3 hours at home. Fast charging to 80% is available in under 40 minutes at supported stations."
-    },
+
 
   
     {
