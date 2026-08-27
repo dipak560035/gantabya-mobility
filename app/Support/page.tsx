@@ -16,11 +16,7 @@ export default function Support() {
 
   
 
-    {
-      id: "faq-6",
-      question: "Can i ride in rain?",
-      answer: "Absolutely. All Gantabya bikes are IP67 rated- fully protected against dust, water splashes, and heavy rain."
-    }
+ 
   ];
 
   return (
