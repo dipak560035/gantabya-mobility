@@ -11,11 +11,7 @@ import {
 
 export default function Support() {
   const faqs = [
-    {
-      id: "faq-1",
-      question: "How far can Gantabya bikes go on a single charge?",
-      answer: "Our bikes range 300km on a full charge, depending on riding conditions and terrain."
-    },
+ 
     {
       id: "faq-2",
       question: "How long does it take to charge?",
