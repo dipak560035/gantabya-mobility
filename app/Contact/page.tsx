@@ -41,14 +41,7 @@ export default function Contact() {
             
           
           <div className="h-48 w-full bg-gray-800 rounded-xl flex items-center justify-center border border-gray-700 overflow-hidden">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112965.73367675628!2d85.2599292552802!3d27.70895594411135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1fe18db0ea!2sKathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2snp!4v1716277200000!5m2!1sen!2snp"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+        
             </div>
         </div>
       </div>
