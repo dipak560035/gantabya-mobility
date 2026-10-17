@@ -80,7 +80,7 @@ export default function Navbar() {
                 src={gantabyaLogo}
                 alt="Gantabya logo"
                 width={160}
-                height={48}
+                height={49}
                 className="w-auto h-10 sm:h-12 md:h-14 lg:h-16 object-contain transition-transform duration-300 group-hover:scale-105"
                 priority
               />
