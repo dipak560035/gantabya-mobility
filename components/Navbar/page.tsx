@@ -98,9 +98,7 @@ export default function Navbar() {
             {/* Desktop CTA Button */}
             <div className="hidden lg:block">
               <Link href="/Testride">
-                <button className="bg-[#00d65c] text-black px-8 xl:px-10 py-3 font-semibold rounded-full hover:bg-[#00b34d] transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer shadow-lg hover:shadow-green-500/25 whitespace-nowrap text-base">
-                  Book Test Ride
-                </button>
+               
               </Link>
             </div>
 
