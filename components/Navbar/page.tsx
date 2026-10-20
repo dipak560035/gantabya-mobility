@@ -202,7 +202,7 @@ function NavItem({ href, children, onClick }: { href: string; children: React.Re
       onClick={onClick}
       className={`transition duration-200 text-base font-medium ${
         isActive 
-          ? 'text-green-500 font-semibold' 
+          ? 'text-green-500' 
           : 'text-gray-300'
       }`}
     >
