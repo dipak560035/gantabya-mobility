@@ -323,7 +323,7 @@ export default function Navbar() {
             <div className="pt-4 px-4">
               <Link href="/Testride" onClick={() => setIsMenuOpen(false)}>
                 <button className="w-full bg-[#00d65c] text-black px-6 py-3 font-semibold rounded-full hover:bg-[#00b34d] transition-all duration-200 cursor-pointer">
-                  Book Test Ride
+                  Book 
                 </button>
               </Link>
             </div>
