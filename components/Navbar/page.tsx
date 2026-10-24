@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -19,7 +18,7 @@ function NavItem({ href, children, onClick }: { href: string; children: React.Re
       className={`transition duration-200 text-base font-medium ${
         isActive 
           ? 'text-green-800' 
-          : 'text-gray-800'
+          : 'text-gray-300'
       }`}
     >
       {children}
@@ -36,7 +35,7 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
-    window.addEventListener;
+    window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [setIsScrolled]);
 
@@ -59,13 +58,13 @@ export default function Navbar() {
     { href: '/about-us', label: 'About Us' },
     { href: '/blog', label: 'Blog' },
     { href: '/Support', label: 'Support' },
-  
+    { href: '/Contact', label: 'Contact' },
   ];
 
   return (
     <>
       <header 
-        className={`fixed top-0 left-0 w-full z-59 transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
           isScrolled 
             ? 'bg-[#111111]/95 backdrop-blur-md border-b border-gray-800' 
             : 'bg-[#111111]/90 backdrop-blur-sm'
@@ -79,7 +78,7 @@ export default function Navbar() {
               <Image
                 src={gantabyaLogo}
                 alt="Gantabya logo"
-                width={180}
+                width={169}
                 height={48}
                 className="w-auto h-10 sm:h-12 md:h-14 lg:h-16 object-contain transition-transform duration-300 group-hover:scale-105"
                 priority
@@ -124,12 +123,14 @@ export default function Navbar() {
               ? 'opacity-100 visible translate-y-0' 
               : 'opacity-0 invisible -translate-y-4'
           }`}
-          style={{ height: isMenuOpen ? 'auto' : '10', overflow: 'hidden' }}
+          style={{ height: isMenuOpen ? 'auto' : '0', overflow: 'hidden' }}
         >
           <div className="px-4 py-6 space-y-3 max-h-[calc(100vh-5rem)] overflow-y-auto">
             {navItems.map((item) => (
               <NavItem key={item.href} href={item.href} onClick={() => setIsMenuOpen(false)}>
-                
+                <div className="block py-3 px-4 rounded-lg hover:bg-white/5 transition-colors">
+                  {item.label}
+                </div>
               </NavItem>
             ))}
             
@@ -150,163 +151,4 @@ export default function Navbar() {
     </>
   );
 }
-
-
-
-
-
-
-// 'use client';
-
-// import Image from 'next/image';
-// import Link from 'next/link';
-// import { usePathname } from 'next/navigation';
-// import { useState, useEffect } from 'react';
-// import { Menu, X } from 'lucide-react';
-// import gantabyaLogo from '../../logo/gantabyalogo.png';
-
-// function NavItem({ href, children, onClick }: { href: string; children: React.ReactNode; onClick?: () => void }) {
-//   const pathname = usePathname();
-//   const isActive = pathname === href;
-
-//   return (
-//     <Link 
-//       href={href} 
-//       onClick={onClick}
-//       className={`transition duration-200 text-base font-medium ${
-//         isActive 
-//           ? 'text-green-800' 
-//           : 'text-gray-300'
-//       }`}
-//     >
-//       {children}
-//     </Link>
-//   );
-// }
-
-// export default function Navbar() {
-//   const [isMenuOpen, setIsMenuOpen] = useState(false);
-//   const [isScrolled, setIsScrolled] = useState(false);
-
-//   // Handle scroll effect
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       setIsScrolled(window.scrollY > 10);
-//     };
-//     window.addEventListener('scroll', handleScroll);
-//     return () => window.removeEventListener('scroll', handleScroll);
-//   }, [setIsScrolled]);
-
-//   // Prevent body scroll when menu is open
-//   useEffect(() => {
-//     if (isMenuOpen) {
-//       document.body.style.overflow = 'hidden';
-//     } else {
-//       document.body.style.overflow = 'unset';
-//     }
-//     return () => {
-//       document.body.style.overflow = 'unset';
-//     };
-//   }, [isMenuOpen]);
-
-//   const navItems = [
-//     { href: '/', label: 'Home' },
-//     { href: '/electric', label: 'Our Bikes' },
-//     { href: '/technology', label: 'Technology' },
-//     { href: '/about-us', label: 'About Us' },
-//     { href: '/blog', label: 'Blog' },
-//     { href: '/Support', label: 'Support' },
-//     { href: '/Contact', label: 'Contact' },
-//   ];
-
-//   return (
-//     <>
-//       <header 
-//         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-//           isScrolled 
-//             ? 'bg-[#111111]/95 backdrop-blur-md border-b border-gray-800' 
-//             : 'bg-[#111111]/90 backdrop-blur-sm'
-//         }`}
-//       >
-//         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="flex items-center justify-between h-20 md:h-24">
-            
-//             {/* Logo Section - Larger professional size */}
-//             <Link href="/" className="flex items-center cursor-pointer shrink-0 group">
-//               <Image
-//                 src={gantabyaLogo}
-//                 alt="Gantabya logo"
-//                 width={169}
-//                 height={48}
-//                 className="w-auto h-10 sm:h-12 md:h-14 lg:h-16 object-contain transition-transform duration-300 group-hover:scale-105"
-//                 priority
-//               />
-//             </Link>
-
-//             {/* Desktop Navigation */}
-//             <div className="hidden lg:flex items-center gap-8 xl:gap-10">
-//               {navItems.map((item) => (
-//                 <NavItem key={item.href} href={item.href}>
-//                   {item.label}
-//                 </NavItem>
-//               ))}
-//             </div>
-
-//             {/* Desktop CTA Button */}
-//             <div className="hidden lg:block">
-//               <Link href="/Testride">
-               
-//               </Link>
-//             </div>
-
-//             {/* Mobile Menu Button */}
-//             <button
-//               onClick={() => setIsMenuOpen(!isMenuOpen)}
-//               className="lg:hidden p-2 rounded-lg hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500"
-//               aria-label="Toggle menu"
-//             >
-//               {isMenuOpen ? (
-//                 <X className="w-6 h-6 text-white" />
-//               ) : (
-//                 <Menu className="w-6 h-6 text-white" />
-//               )}
-//             </button>
-//           </div>
-//         </nav>
-
-//         {/* Mobile Navigation Menu */}
-//         <div
-//           className={`fixed inset-x-0 top-20 md:top-24 bg-[#111111]/95 backdrop-blur-md border-b border-gray-800 transition-all duration-300 lg:hidden ${
-//             isMenuOpen 
-//               ? 'opacity-100 visible translate-y-0' 
-//               : 'opacity-0 invisible -translate-y-4'
-//           }`}
-//           style={{ height: isMenuOpen ? 'auto' : '0', overflow: 'hidden' }}
-//         >
-//           <div className="px-4 py-6 space-y-3 max-h-[calc(100vh-5rem)] overflow-y-auto">
-//             {navItems.map((item) => (
-//               <NavItem key={item.href} href={item.href} onClick={() => setIsMenuOpen(false)}>
-//                 <div className="block py-3 px-4 rounded-lg hover:bg-white/5 transition-colors">
-//                   {item.label}
-//                 </div>
-//               </NavItem>
-//             ))}
-            
-//             {/* Mobile CTA Button */}
-//             <div className="pt-4 px-4">
-//               <Link href="/Testride" onClick={() => setIsMenuOpen(false)}>
-//                 <button className="w-full bg-[#00d65c] text-black px-6 py-3 font-semibold rounded-full hover:bg-[#00b34d] transition-all duration-200 cursor-pointer">
-//                   Book 
-//                 </button>
-//               </Link>
-//             </div>
-//           </div>
-//         </div>
-//       </header>
-
-//       {/* Spacer to prevent content from hiding under fixed header */}
-//       <div className="h-20" />
-//     </>
-//   );
-// }
 
