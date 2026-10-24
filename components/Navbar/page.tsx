@@ -124,7 +124,7 @@ export default function Navbar() {
               ? 'opacity-100 visible translate-y-0' 
               : 'opacity-0 invisible -translate-y-4'
           }`}
-          style={{ height: isMenuOpen ? 'auto' : '0', overflow: 'hidden' }}
+          style={{ height: isMenuOpen ? 'auto' : '10', overflow: 'hidden' }}
         >
           <div className="px-4 py-6 space-y-3 max-h-[calc(100vh-5rem)] overflow-y-auto">
             {navItems.map((item) => (
