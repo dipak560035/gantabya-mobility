@@ -59,7 +59,7 @@ export default function Navbar() {
     { href: '/about-us', label: 'About Us' },
     { href: '/blog', label: 'Blog' },
     { href: '/Support', label: 'Support' },
-    { href: '/Contact', label: 'Contact' },
+  
   ];
 
   return (
