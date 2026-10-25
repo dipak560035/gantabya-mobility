@@ -104,7 +104,7 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
           
               {isMenuOpen ? (
-                <X className="w-6 h-6 text-white" />
+                <X className="w-7 h-6 text-white" />
               ) : (
                 <Menu className="w-6 h-6 text-white" />
               )}
